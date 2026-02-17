@@ -1,0 +1,330 @@
+.primary-review-container {
+  padding: 10px 60px 30px 60px;
+  font-family: Arial, sans-serif;
+  max-width: 1350px;
+  margin: 0 auto;
+  text-align: left;
+  }
+
+  .primary-page-wrapper {
+    max-width: 1350px;  
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    padding-left: 58px;
+    
+  }
+
+  
+  .page-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    padding-left: 90px;
+  }
+  
+  .dropdown-group {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px; 
+    max-width: 100%;   
+  }
+  
+  .dropdown-group div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+
+  .dropdown-group-2{
+    display:flex;
+    gap: 20px;
+    
+  }
+
+  .combined-dropdown-group{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    padding-left: 235px;
+
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .dropdown {
+    flex-grow: 1;
+    min-width: 240px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+
+  .readonly-reviewer-info {
+    font-size: 0.95rem;
+    color: #444;
+    background-color: #f3f3f3;
+    border-radius: 6px;
+    padding: 12px;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  .readonly-reviewer-info p {
+    margin: 6px 0;
+  }
+  .readonly-reviewer-info strong {
+    color: #333;
+  }
+
+
+  .profile-dropdown {          
+    flex: 1;
+  }
+
+  .profile-dropdown label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+
+  .reset-button {
+    white-space: nowrap;
+    margin-top: 24px;
+    padding: 8px 14px;
+    font-size: 14px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 28px;
+  }
+  
+  .reset-button:hover {
+    background-color: #cfcfcf;
+  }
+  
+  
+  .job-description-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .job-description-header h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .description-section {
+      width: 80vw;
+      max-width: 100%;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 6px;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+      min-height: 150px; 
+    }
+  
+  .description-section textarea {
+      max-width: 100%;
+      height:auto;
+      padding: 10px;
+      font-family: inherit;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      resize: vertical;
+      box-sizing: border-box;
+    }
+
+  .description-section p {
+    margin: 0;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+    /* white-space: pre-wrap; */
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .section-header h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .section-edit-button {
+    background-color: #cbd5e1;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .section-edit-button:hover {
+    background-color: #94a3b8;
+  }
+
+  .editable-textarea {
+    width: 80vw;
+    max-width: 100%;
+    overflow: auto;
+    min-height: 150px;
+    max-height: 400px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin-top: 8px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Update - 1 */
+
+  .approve-button-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start; 
+    padding-left: 0;
+  }
+  
+  
+  .approve-button {
+    padding: 12px 28px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .approve-button:hover {
+    background-color: #218838;
+  }
+  
+
+  .readonly-combined-box {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 14px 12px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 16px;
+    margin-bottom: 10px;
+
+    flex-wrap: wrap;
+    word-break: break-word;
+  }
+  
+  .generate-btn-group {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+  }
+  
+  .generate-btn-group button {
+    background-color: #6c757d;
+    color: white;
+    font-size: 13px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .generate-btn-group button:hover {
+    background-color: #5a6268;
+  }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+
+  .react-select__control {
+    border-radius: 6px;
+    padding: 2px 4px;
+    font-size: 15px;
+    min-height: none;
+    border: 1px solid #ccc;
+    width: 100%; 
+
+  }
+  
+  .react-select__menu {
+    font-size: 15px;
+    z-index: 10;
+  }
+
+.react-select__value-container {
+  display: flex;
+  flex-direction: column;       
+
+}
+
+.react-select__menu {
+  width: 350px !important;
+}

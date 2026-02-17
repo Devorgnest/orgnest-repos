@@ -1,0 +1,29 @@
+  .primary-footer {
+
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 18px ;
+    margin-top: auto;
+    font-size: 14px;
+    
+
+
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .footer-logo {
+    height: 40px;
+    margin-bottom: 8px;
+  }
+  
+  .primary-footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .primary-footer a:hover {
+    text-decoration: underline;
+  }
+
